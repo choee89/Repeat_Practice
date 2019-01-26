@@ -52,7 +52,7 @@ public class MainDrive {
 //		for (int i=2 ; i <= 9 ; i++) {
 //			
 ////			각 단의 내용을 출력 : j
-//			for (int j=1 ; i <= 9 ; j++) {
+//			for (int j=1 ; j <= 9 ; j++) {
 //				
 ////				String.format + i,j를 이용해서 상황에 맞는 문장 출력
 //				System.out.println(String.format("%d x %d = %d", i, j, i*j));
@@ -61,7 +61,7 @@ public class MainDrive {
 //			
 //		}
 //		
-		
+//		
 //		3. 별찍기
 		
 //		3.1) 정사각형 5x5 사이즈의 별 찍기. 연습문제.
@@ -71,6 +71,17 @@ public class MainDrive {
 //		*****
 //		*****
 		
+//		세로 줄바꿈
+		for (int i=0 ; i < 5; i++ ) {
+			
+//			가로 별찍기
+			for (int j=0 ; j <5 ; j++) {
+				System.out.print("*");
+			}
+			
+			System.out.println();
+			
+		}
 		
 		
 		
