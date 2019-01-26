@@ -72,16 +72,26 @@ public class MainDrive {
 //		*****
 		
 //		세로 줄바꿈
-		for (int i=0 ; i < 5; i++ ) {
-			
-//			가로 별찍기
-			for (int j=0 ; j <5 ; j++) {
-				System.out.print("*");
-			}
-			
-			System.out.println();
-			
-		}
+//		for (int i=0 ; i < 5; i++ ) {
+//			
+////			가로 별찍기
+//			for (int j=0 ; j <5 ; j++) {
+//				System.out.print("*");
+//			}
+//			
+//			System.out.println();
+//			
+//		}
+		
+		
+//		3.2) 기초 삼각형 별찍기
+//		*
+//		**
+//		***
+//		****
+//		*****
+		
+		
 		
 		
 		
