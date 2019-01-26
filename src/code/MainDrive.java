@@ -107,13 +107,33 @@ public class MainDrive {
 		
 //		3.3) 역방향 별찍기
 		
-//		*****
-//		****
-//		***
-//		**
-//		*
+//		*****  i : 0, 별 5개  별찍는갯수 = 5-i개.
+//		****   i : 1, 별 4개
+//		***    i : 2, 별 3개
+//		**     i : 3, 별 2개
+////		*      i : 4, 별 1개
+//		
+//		for (int i=0 ; i < 5 ; i++) {
+//			
+//			for (int j=0 ; j < 5-i ; j++) {
+//				System.out.print("*");
+//			}
+//			
+//			System.out.println();
+//			
+//		}
 		
-		
+//		두번째 방법 : i의 갑이 줄어들도록 for문을 감소형으로.
+		for (int i=5 ; i < 0 ; i--) {
+			
+//			j가 도는 횟수를 5,4,3,2,1로 줄어들도록
+			for (int j=0 ; j < i ; j++) {
+				System.out.print("*");
+				
+			}
+			
+			System.out.println();
+		}
 		
 		
 		
