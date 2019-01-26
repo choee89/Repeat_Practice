@@ -95,15 +95,24 @@ public class MainDrive {
 //		세로 줄바꿈 담당 변수 : i 바깥 for
 		
 //		반복문의 반복 횟수? 조건식이 담당. => 조건식의 조건을 변수로 활용하자!
-		for (int i=0 ; i < 5 ; i++) {
-			
-			for (int j=0; j < i+1 ; j++) { //j <= i도 가능
-				System.out.print("*");
-			}
-			
-			System.out.println();
-			
-		}
+//		for (int i=0 ; i < 5 ; i++) {
+//			
+//			for (int j=0; j < i+1 ; j++) { //j <= i도 가능
+//				System.out.print("*");
+//			}
+//			
+//			System.out.println();
+//			
+//		}
+		
+//		3.3) 역방향 별찍기
+		
+//		*****
+//		****
+//		***
+//		**
+//		*
+		
 		
 		
 		
